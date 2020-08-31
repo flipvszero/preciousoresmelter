@@ -8,12 +8,12 @@
 		</recipe>
 		
 		<recipe name="resourceGoldNugget" count="1" craft_area="forge" craft_tool="toolForgeCrucible" craft_time="3" tags="PreciousOreSmelterCrafting">
-			<ingredient name="unit_gold" count="5"/>
+			<ingredient name="unit_iron" count="5"/>
 			<ingredient name="unit_brass" count="3"/>
 		</recipe>
 
 		<recipe name="resourceSilverNugget" count="1" craft_area="forge" craft_tool="toolForgeCrucible" craft_time="3" tags="PreciousOreSmelterCrafting">
-			<ingredient name="unit_silver" count="3"/>
+			<ingredient name="unit_iron" count="3"/>
 			<ingredient name="unit_lead" count="3"/>
 		</recipe>
 		
