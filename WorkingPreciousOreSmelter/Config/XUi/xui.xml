@@ -6,7 +6,7 @@
 			<window name="windowCraftingQueue"/>
 			<window name="windowToolsForge" />
 			<window name="windowFuel" />
-			<window name="windowForgeInput" />
+			<window name="windowPreciousOreSmelterInput" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
