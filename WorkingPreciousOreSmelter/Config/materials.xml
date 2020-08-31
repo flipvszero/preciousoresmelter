@@ -1,4 +1,3 @@
-<!-- This is not in use at this moment -->
 <configs>
 	<append xpath="/materials">
 
@@ -15,6 +14,30 @@
 			<property name="forge_category" value="gold"/>
 			<property name="Experience" value="2"/>
 		</material>
+		
+		<material id="MGold">
+	        <property name="damage_category" value="iron"/>
+	        <property name="surface_category" value="iron"/>
+	        <property name="forge_category" value="gold"/>
+	        <property name="Hardness" type="float" value="1"/>
+	        <property name="stepsound" value="metal"/>
+	        <property name="stability_glue" value="120"/>
+	        <property name="Mass" type="int" value="10"/>
+	        <property name="MaxDamage" value="500"/>
+	        <property name="Experience" value="2"/>
+        </material>
+		
+		<material id="MSilver">
+	        <property name="damage_category" value="iron"/>
+	        <property name="surface_category" value="iron"/>
+	        <property name="forge_category" value="silver"/>
+	        <property name="Hardness" type="float" value="1"/>
+	        <property name="stepsound" value="metal"/>
+	        <property name="stability_glue" value="120"/>
+	        <property name="Mass" type="int" value="10"/>
+	        <property name="MaxDamage" value="500"/>
+	        <property name="Experience" value="2"/>
+        </material>
 
 	</append>
 </configs>

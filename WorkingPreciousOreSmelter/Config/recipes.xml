@@ -1,18 +1,21 @@
 <configs>
 	<append xpath="/recipes">
-		<recipe name="PreciousOreSmelter" count="1" craft_area="workbench" craft_time="120" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+	
+		<recipe name="PreciousOreSmelter" count="1" craft_area="workbench" craft_time="120" tags="perkAdvancedEngineering,workbenchCrafting">
 			<ingredient name="resourceForgedSteel" count="50"/>
 			<ingredient name="resourceClayLump" count="40"/>
 			<ingredient name="resourceMechanicalParts" count="15"/>
 		</recipe>
-		<recipe name="resourceGoldNugget" count="1" craft_area="PreciousOreSmelter" craft_tool="toolForgeCrucible" craft_time="3">
-			<ingredient name="unit_iron" count="5"/>
+		
+		<recipe name="resourceGoldNugget" count="1" craft_area="forge" craft_tool="toolForgeCrucible" craft_time="3" tags="PreciousOreSmelterCrafting">
+			<ingredient name="unit_gold" count="5"/>
 			<ingredient name="unit_brass" count="3"/>
 		</recipe>
 
-		<recipe name="resourceSilverNugget" count="1" craft_area="PreciousOreSmelter" craft_tool="toolForgeCrucible" craft_time="3">
-			<ingredient name="unit_iron" count="3"/>
+		<recipe name="resourceSilverNugget" count="1" craft_area="forge" craft_tool="toolForgeCrucible" craft_time="3" tags="PreciousOreSmelterCrafting">
+			<ingredient name="unit_silver" count="3"/>
 			<ingredient name="unit_lead" count="3"/>
 		</recipe>
+		
 	</append>
 </configs>

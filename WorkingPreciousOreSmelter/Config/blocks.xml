@@ -27,10 +27,8 @@
 			<property class="Workstation">
 				<property name="Modules" value="tools,output,fuel,material_input"/>
 				<property name="CraftingAreaRecipes" value="forge" />
-				<property name="Collide" value="melee,bullet,arrow,rocket"/>
-			</property>
-			
-			<property name="InputMaterials" value="iron,lead,brass,silver,gold"/>
+				<property name="InputMaterials" value="iron,lead,brass,silver,gold"/>
+			</property>			
 			<property name="WorkstationIcon" value="ui_game_symbol_forge"/>
 			<property name="OpenSound" value="forge_open"/>
 			<property name="CloseSound" value="forge_close"/>
