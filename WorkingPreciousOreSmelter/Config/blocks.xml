@@ -1,0 +1,53 @@
+<configs>
+	<append xpath="/blocks">
+		<!-- Working Precious Ore Smelter -->
+		<block name="PreciousOreSmelter">
+			<property name="DescriptionKey" value="PreciousOreSmelterDesc"/>
+			<property name="Class" value="Forge"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="MaxDamage" value="1000"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Furniture/woodBurningStovePrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="CustomIcon" value="cntWoodBurningStove" />
+			<property name="CustomIconTint" value="ffa0a0" />
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ParticleName" value="forge"/>
+			<property name="ParticleOffset" value="0.5,0.5,0.6"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HeatMapStrength" value="6"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
+
+			<property class="Workstation">
+				<property name="Modules" value="tools,output,fuel,material_input"/>
+				<property name="CraftingAreaRecipes" value="forge" />
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			</property>
+			
+			<property name="InputMaterials" value="iron,lead,brass,silver,gold"/>
+			<property name="WorkstationIcon" value="ui_game_symbol_forge"/>
+			<property name="OpenSound" value="forge_open"/>
+			<property name="CloseSound" value="forge_close"/>
+			<property name="CraftSound" value="forge_smelt_click"/>
+			<property name="CraftCompleteSound" value="forge_item_complete"/>
+			<property name="WorkstationJournalTip" value="heatMapTip"/>
+			<property name="PickupJournalEntry" value="forgeTip"/>
+
+
+			<property class="RepairItems"> <property name="resourceForgedIron" value="8"/> </property>
+			<drop event="Harvest" name="resourceScrapIron" count="10,20" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceCoal" count="3,8" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+		</block>
+	</append>
+</configs>

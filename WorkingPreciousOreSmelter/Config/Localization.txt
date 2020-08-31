@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English
+workstationPreciousOreSmelter,blocks,Block,New,Working Precious Ore Smelter,,,,,
+workstationPreciousOreSmelterDesc,blocks,Block,New,Use this working Precious Ore Smelter to smelt silver, gold and diamonds.

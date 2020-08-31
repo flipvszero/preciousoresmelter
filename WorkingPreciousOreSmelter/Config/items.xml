@@ -1,0 +1,44 @@
+<configs>
+	<append xpath="/items">
+	
+		<item name="unit_silver">
+			<property name="Extends" value="unit_iron"/>
+			<property name="CustomIcon" value="resourceSilverNugget"/>
+			<property name="Material" value="MresourceSilverNugget "/>
+			<property name="CreativeMode" value="None" />
+		</item>
+
+		<item name="unit_gold">
+			<property name="Extends" value="unit_iron"/>
+			<property name="CustomIcon" value="resourceGoldNugget"/>
+			<property name="Material" value="MresourceGoldNugget"/>
+			<property name="CreativeMode" value="None" />
+		</item>
+		
+		<item name="resourceSilverNugget">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="MresourceSilverNugget"/>
+			<property name="Stacknumber" value="2500"/> <!-- STK loot -->
+			<property name="EconomicValue" value="250"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="Group" value="Resources"/>
+			<property name="DescriptionKey" value="rareOresGroupDesc"/>
+		</item>
+		
+		<item name="resourceGoldNugget">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="MresourceGoldNugget"/>
+			<property name="Stacknumber" value="2500"/> <!-- STK loot -->
+			<property name="EconomicValue" value="400"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property name="Group" value="Resources"/>
+			<property name="DescriptionKey" value="rareOresGroupDesc"/>
+		</item>
+		
+	</append>
+	
+</configs>
