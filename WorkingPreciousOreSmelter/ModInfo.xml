@@ -2,7 +2,7 @@
 	<xml>
 		<ModInfo>
 			<Name  value="working precious ore smelter" />
-			<Description value="Smelt iron and lead for silver, silver for gold, gold and silver for diamonds" />
+			<Description value="Smelt iron and lead for silver; iron and brass for gold; gold and silver for diamonds" />
 			<Author value="flipvszero88" />
 			<Version value="1.0" />
 			<Website value="http://zombiehunters.xyz" />
