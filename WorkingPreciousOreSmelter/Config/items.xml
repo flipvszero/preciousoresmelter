@@ -15,9 +15,9 @@
 			<property name="CreativeMode" value="None" />
 		</item>
 		
-		<item name="resourceSilverNuggetFragment">
+		<item name="resourceSilverNugget">
 			<property name="HoldType" value="45"/>
-			<property name="CustomIcon" value="Silver"/>
+			<property name="CustomIcon" value="resourceSilverNugget"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MresourceSilverNugget"/>
@@ -29,9 +29,9 @@
 			<property name="DescriptionKey" value="rareOresGroupDesc"/>
 		</item>
 		
-		<item name="resourceGoldNuggetFragment">
+		<item name="resourceGoldNugget">
 			<property name="HoldType" value="45"/>
-			<property name="CustomIcon" value="Gold"/>
+			<property name="CustomIcon" value="resourceGoldNugget"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MresourceGoldNugget"/>
