@@ -5,16 +5,21 @@
 			<ingredient name="resourceForgedSteel" count="50"/>
 			<ingredient name="resourceClayLump" count="40"/>
 			<ingredient name="resourceMechanicalParts" count="15"/>
+			<ingredient name="resourceRawDiamond" count="1"/>
 		</recipe>
 		
 		<recipe name="resourceGoldNugget" count="1" craft_area="forge" craft_tool="toolForgeCrucible" craft_time="3" tags="PreciousOreSmelterCrafting">
-			<ingredient name="unit_iron" count="5"/>
-			<ingredient name="unit_brass" count="3"/>
+			<ingredient name="unit_iron" count="150"/>
+			<ingredient name="unit_brass" count="50"/>
 		</recipe>
 
 		<recipe name="resourceSilverNugget" count="1" craft_area="forge" craft_tool="toolForgeCrucible" craft_time="3" tags="PreciousOreSmelterCrafting">
-			<ingredient name="unit_iron" count="3"/>
-			<ingredient name="unit_lead" count="3"/>
+			<ingredient name="unit_iron" count="70"/>
+			<ingredient name="unit_lead" count="50"/>
+		</recipe>
+		<recipe name="resourceRawDiamond" count="1" craft_area="forge" craft_tool="toolForgeCrucible" craft_time="3" tags="PreciousOreSmelterCrafting">
+			<ingredient name="unit_silver" count="50"/>
+			<ingredient name="unit_gold" count="100"/>
 		</recipe>
 		
 	</append>
