@@ -22,5 +22,10 @@
 			<ingredient name="unit_gold" count="100"/>
 		</recipe>
 		
+		<recipe name="resourceRawDiamond" count="1" craft_area="workbench" craft_time="30" tags="workbenchCrafting">
+			<ingredient name="resourceGoldNugget" count="1"/>
+			<ingredient name="resourceSilverNugget" count="1"/>
+		</recipe>
+		
 	</append>
 </configs>
